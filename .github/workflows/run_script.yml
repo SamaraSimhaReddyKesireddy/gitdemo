@@ -2,8 +2,7 @@ name: Run Script Every 15 Minutes
 
 on:
   schedule:
-    # Run every 15 minutes
-    - cron: "*/1 * * * *"
+    - cron: "0 8 * * *" # Runs every day at 8 AM UTC
 
 jobs:
   run-script:
